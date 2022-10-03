@@ -1,0 +1,82 @@
+.container .img-page {
+  background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70%;
+  height: 667px;
+  float: left;
+  position: relative;
+}
+
+.container .form-login {
+  background-color: white;
+  width: 30%;
+  height: 667px;
+  float: left;
+}
+
+.container .img-page img {
+  width: 700px;
+  position: absolute;
+  bottom: 0px;
+  right: 130px;
+}
+
+.container .img-welcome {
+  position: absolute;
+  top: 10px;
+  transition-delay: 0.5s;
+}
+
+.container .form-login h1 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .form-login form {
+  padding-left: 50px;
+}
+
+.container .form-login form input {
+  padding-top: 15px;
+  width: calc(100% - 50px);
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.container .form-login form a {
+  float: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.container .form-login form input[type="password"] {
+  outline: none;
+}
+
+.container .form-login form input[type="text"] {
+  outline: none;
+}
+
+.container .form-login form button {
+  margin-top: 30px;
+  width: 100px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bfff;
+  color: white;
+  float: right;
+  margin-right: 40px;
+}
+
+.container form label {
+  padding-top: 20px;
+}
